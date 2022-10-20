@@ -1,4 +1,5 @@
 import numpy as np 
+import math
 # SPLDV
 # 20x + 10y = 350
 # 17x + 22y = 500
@@ -13,7 +14,12 @@ import numpy as np
 # 3x - 5y + 2z = -4
 # what is the value of [x, y, z] + [1, 2, 3] in python
 
-A = np.array([[4, 3, 2], [-2, 2, 3], [3, -5, 2]])
-B = np.array([25, -10, -4])
-C = np.linalg.solve(A,B)
-print(C)
+# A = np.array([[4, 3, 2], [-2, 2, 3], [3, -5, 2]])
+# B = np.array([25, -10, -4])
+# C = np.linalg.solve(A,B)
+# print(C)
+
+A = np.array([[4, 3, 2], [-2, 2, 3], [3, -5, 2 ]])
+B = np.array([25, -10, 4])
+C = np.linalg.solve(A, B)
+print((C))
